@@ -1,0 +1,21 @@
+fex
+-----------------
+
+fex is a small command line application (currently only) for windows to facilitate
+searching in files under known and isolated conditions. I started this project
+because I needed a fast way to search in source code files while working in Vim.
+Using grep/ack/findstr was too slow for me on huge code bases and I needed a
+faster alternative. To achieve this fex has very limited use and by no means does
+it replace the programs mentioned above.
+
+For accepted search patterns have a look at http://code.google.com/p/re2/wiki/Syntax
+
+Libraries used
+------------------
+
+fex makes use of the pthreads, re2 and zlib libraries. The code for these (with the
+exception of pthreads) can be found in the libs/ folder. Small changes were made
+to get them to compile with visual studio.
+
+See the LICENSE and README files in the sub directories of the libs/ folder for
+the relevant licenses.

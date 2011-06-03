@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="libs\zlib\adler32.c">
+      <Filter>libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\zlib\compress.c">
+      <Filter>libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\zlib\crc32.c">
+      <Filter>libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\zlib\deflate.c">
+      <Filter>libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\zlib\gzclose.c">
+      <Filter>libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\zlib\gzlib.c">
+      <Filter>libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\zlib\gzread.c">
+      <Filter>libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\zlib\gzwrite.c">
+      <Filter>libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\zlib\infback.c">
+      <Filter>libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\zlib\inffast.c">
+      <Filter>libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\zlib\inflate.c">
+      <Filter>libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\zlib\inftrees.c">
+      <Filter>libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\zlib\trees.c">
+      <Filter>libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\zlib\uncompr.c">
+      <Filter>libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\zlib\zutil.c">
+      <Filter>libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\util\arena.cc">
+      <Filter>libs\util</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\util\hash.cc">
+      <Filter>libs\util</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\util\random.cc">
+      <Filter>libs\util</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\util\rune.cc">
+      <Filter>libs\util</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\util\stringpiece.cc">
+      <Filter>libs\util</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\util\stringprintf.cc">
+      <Filter>libs\util</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\util\strutil.cc">
+      <Filter>libs\util</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\util\thread.cc">
+      <Filter>libs\util</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\util\valgrind.cc">
+      <Filter>libs\util</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\re2\bitstate.cc">
+      <Filter>libs\re2</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\re2\compile.cc">
+      <Filter>libs\re2</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\re2\dfa.cc">
+      <Filter>libs\re2</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\re2\filtered_re2.cc">
+      <Filter>libs\re2</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\re2\mimics_pcre.cc">
+      <Filter>libs\re2</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\re2\nfa.cc">
+      <Filter>libs\re2</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\re2\onepass.cc">
+      <Filter>libs\re2</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\re2\parse.cc">
+      <Filter>libs\re2</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\re2\perl_groups.cc">
+      <Filter>libs\re2</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\re2\prefilter.cc">
+      <Filter>libs\re2</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\re2\prefilter_tree.cc">
+      <Filter>libs\re2</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\re2\prog.cc">
+      <Filter>libs\re2</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\re2\re2.cc">
+      <Filter>libs\re2</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\re2\regexp.cc">
+      <Filter>libs\re2</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\re2\set.cc">
+      <Filter>libs\re2</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\re2\simplify.cc">
+      <Filter>libs\re2</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\re2\tostring.cc">
+      <Filter>libs\re2</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\re2\unicode_casefold.cc">
+      <Filter>libs\re2</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\re2\unicode_groups.cc">
+      <Filter>libs\re2</Filter>
+    </ClCompile>
+    <ClCompile Include="fex.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="libs">
+      <UniqueIdentifier>{78b7c54b-3307-4d49-b20a-2eefa8db69c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\zlib">
+      <UniqueIdentifier>{c5a8ea9a-9ce6-4dc4-a894-d65a047531e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\re2">
+      <UniqueIdentifier>{104cbb90-cfb7-4de5-82bd-b1d08b3a5cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\util">
+      <UniqueIdentifier>{b39477da-628a-4753-b6eb-12466018f815}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libs\zlib\crc32.h">
+      <Filter>libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\zlib\deflate.h">
+      <Filter>libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\zlib\gzguts.h">
+      <Filter>libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\zlib\inffast.h">
+      <Filter>libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\zlib\inffixed.h">
+      <Filter>libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\zlib\inflate.h">
+      <Filter>libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\zlib\inftrees.h">
+      <Filter>libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\zlib\trees.h">
+      <Filter>libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\zlib\zconf.h">
+      <Filter>libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\zlib\zlib.h">
+      <Filter>libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\zlib\zutil.h">
+      <Filter>libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\util\arena.h">
+      <Filter>libs\util</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\util\atomicops.h">
+      <Filter>libs\util</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\util\flags.h">
+      <Filter>libs\util</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\util\logging.h">
+      <Filter>libs\util</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\util\mutex.h">
+      <Filter>libs\util</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\util\random.h">
+      <Filter>libs\util</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\util\sparse_array.h">
+      <Filter>libs\util</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\util\sparse_set.h">
+      <Filter>libs\util</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\util\thread.h">
+      <Filter>libs\util</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\util\utf.h">
+      <Filter>libs\util</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\util\util.h">
+      <Filter>libs\util</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\util\valgrind.h">
+      <Filter>libs\util</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\re2\filtered_re2.h">
+      <Filter>libs\re2</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\re2\prefilter.h">
+      <Filter>libs\re2</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\re2\prefilter_tree.h">
+      <Filter>libs\re2</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\re2\prog.h">
+      <Filter>libs\re2</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\re2\re2.h">
+      <Filter>libs\re2</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\re2\regexp.h">
+      <Filter>libs\re2</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\re2\set.h">
+      <Filter>libs\re2</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\re2\stringpiece.h">
+      <Filter>libs\re2</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\re2\unicode_casefold.h">
+      <Filter>libs\re2</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\re2\unicode_groups.h">
+      <Filter>libs\re2</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\re2\variadic_function.h">
+      <Filter>libs\re2</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\re2\walker-inl.h">
+      <Filter>libs\re2</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
