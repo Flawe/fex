@@ -10,6 +10,8 @@ it replace the programs mentioned above.
 
 For accepted search patterns have a look at http://code.google.com/p/re2/wiki/Syntax
 
+This project was inspired by qgrep (http://qgrep.com/).
+
 Libraries used
 ------------------
 
